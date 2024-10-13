@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <head>
+        <title>
+            Super Smart Home
+        </title>
+    <link rel="shortcut icon" type="image/png" href="/images/images.png">
+    <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+            <div class="banner">
+                <div class="navbar">
+                   <a href="index.html" target="_blank"> <img src="/images/logo3.png" class="logo"> </a>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li class="lastbutton"><a href="device.php"> Devices </a></li>
+                    </ul>
+                 </div>
+
+                <section class="products2">
+                  <h2> Made Using Micro:Bit </h2>
+                  <div class="card">
+                    <img src="./images/dooralarm.png" alt="Door Alarm" style="width:100%">
+                    <h1>Door Alarm</h1>
+                    <p class="price">&euro;19.99</p>
+                    <p>Door alarm made using the microbit providing the homeowner with security</p><br>
+                    <p align="center" style="color:green; margin-bottom:8px; font-weight:bold;">In Stock<p/>
+                    <p><button onclick="inStock()" >Buy Now</button></p>
+                  </div>
+                  <div class="card">
+                    <img src="./images/light.png" alt="Light" style="width:100%">
+                    <h1>Auto Lights</h1>
+                    <p class="price">&euro;19.99</p>
+                    <p>Turn your lights on and off automatically with microbit</p><br>
+                    <p align="center" style="color:red; margin-bottom:8px; font-weight:bold;">Out of Stock<p/>
+                    <p><button onclick="OutStock()">Buy Now</button></p>
+                  </div>
+                  <div class="card">
+                    <img src="./images/bottle.png" alt="Water Bottle" style="width:100%">
+                    <h1>Stay Hydrated</h1>
+                    <p class="price">&euro;19.99</p>
+                    <p>Stay Hydrated with microbit</p><br><br>
+                    <p align="center" style="color:red; margin-bottom:8px; font-weight:bold;">Out of Stock<p/>
+                    <p><button onclick="OutStock()">Buy Now</button></p>
+                  </div>
+                </section>
+          </div>
+        </body>
+        <script src="shop.js"></script>
+</html>
